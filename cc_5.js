@@ -39,3 +39,9 @@ console.log("Discounted Prices: ", discountedPrices); // Logging new disocunted 
 let inventory = [5, 0, 12, 8, 0]; // Declaring array inventory with at least five product quantities. 
 let availableProducts = inventory.filter(quantity => quantity > 0); // Using method to remove products with zero stock.
 console.log(availableProducts); // Logging filtered array to console.
+
+// Task 6 Revenue Calculation
+let sales = [500, 300, 200, 400]; //Declaring array sales.
+let totalRevenue = sales.reduce((total, sale) => total + sale, 0); // Using method to calculate total revenue.
+console.log(`Total Revenue: $${totalRevenue}`); // Logging total revenue to console.
+
