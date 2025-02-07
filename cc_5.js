@@ -49,3 +49,11 @@ console.log(`Total Revenue: $${totalRevenue}`); // Logging total revenue to cons
 let customers = ["Alice", "Bob", "Charlie", "David"]; // Declaring array customrs. 
 let foundCustomer = customers.find(customers => customers === "Charlie"); // Using method to locate customer.
 console.log(`Found Customer: ${foundCustomer}`); // Logging result to console. 
+
+// Task 8 Function Declaration
+let amount = 500;
+let taxRate = 0.1; // 10%
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}; // Writing function for 10% discount.
+console.log(`Total Tax: $${calculateTax(amount, taxRate)}`); // Returning calculated tax and logging it.
