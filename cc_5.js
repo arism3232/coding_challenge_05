@@ -34,3 +34,8 @@ let prices = [100, 200, 300]; // Declaring array prices.
 let discountRate = 0.1; // 10% discount.
 let discountedPrices = prices.map(price => price * (1 - discountRate)); // Using method to apply discount to each price.
 console.log("Discounted Prices: ", discountedPrices); // Logging new disocunted prices to console.
+
+// Task 5 Filter Method
+let inventory = [5, 0, 12, 8, 0]; // Declaring array inventory with at least five product quantities. 
+let availableProducts = inventory.filter(quantity => quantity > 0); // Using method to remove products with zero stock.
+console.log(availableProducts); // Logging filtered array to console.
