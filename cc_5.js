@@ -20,3 +20,11 @@ let order = {
     }
 }; // Adding method inside object to log order details.
 order.displayOrder(); // Calling method and logging details.
+
+// Task 3 Array Manipulation (push, pop, shift, unshift)
+let cartItems = ["Water Bottle", "Paper Cup", "Napkin"]; // Declaring array with three product names. 
+cartItems.push("Paper Plate"); // Adding new product to cart. 
+cartItems.pop(); // Removing last item.
+cartItems.unshift("Soda"); // Adding item in the beginning.
+cartItems.shift(); // Removing item from the beginning.
+console.log("Updated Shopping Cart: ", cartItems); // Logging final array to console.
