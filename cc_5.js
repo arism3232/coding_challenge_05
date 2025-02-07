@@ -65,3 +65,7 @@ const applyDiscount = function(price, disocunt) {
     return price - disocunt; 
 }; // Declaring function expression.
 console.log("Price After Discount: $", applyDiscount(price, discount)); // Returning discounted price and logging result. 
+
+// Task 10 Arrow Function
+const calculatePoints = purchaseAmount => Math.floor(purchaseAmount / 10); // Writing arrow function. 
+console.log(`Loyalty Points: ${calculatePoints(417)}`); // Returning 1 point per $10 spent and logging the result.
