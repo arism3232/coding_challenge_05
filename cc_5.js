@@ -28,3 +28,9 @@ cartItems.pop(); // Removing last item.
 cartItems.unshift("Soda"); // Adding item in the beginning.
 cartItems.shift(); // Removing item from the beginning.
 console.log("Updated Shopping Cart: ", cartItems); // Logging final array to console.
+
+// Task 4 Map Method
+let prices = [100, 200, 300]; // Declaring array prices. 
+let discountRate = 0.1; // 10% discount.
+let discountedPrices = prices.map(price => price * (1 - discountRate)); // Using method to apply discount to each price.
+console.log("Discounted Prices: ", discountedPrices); // Logging new disocunted prices to console.
